@@ -31,8 +31,23 @@
   font-size: 20px;
 }
 
+.padButton:hover{
+  border: 1px solid white;
+  color: #ccc;
+}
+
 .dis{
   grid-area: dis;
+  background-color: black;
+  text-align: right;
+  font-size: 20px;
+}
+
+.dis input{
+  width: 90%;
+  color: white;
+  padding: 5px 20px;
+  text-align: right;
   background-color: black;
 }
 
@@ -42,3 +57,9 @@
 .equal{
   grid-area: equal;
 }
+
+.total{
+  padding: 5px 20px;
+  color: yellow; 
+}
+
