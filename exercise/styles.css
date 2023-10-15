@@ -1,0 +1,24 @@
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    grid-template-rows: repeat(4,50px);
+    gap: 20px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.btn{
+    height: 40px;
+    width: 60px;
+}
+
+.calculator{
+    display: flex;
+    place-items: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
